@@ -23,6 +23,7 @@ class App < Sinatra::Base
     first = params[:num1]
     second = params[:num2]
     product = first.to_i * second.to_i
+    "#{product}"
   end
 
 end
